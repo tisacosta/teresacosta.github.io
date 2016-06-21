@@ -1,0 +1,21 @@
+/* line 2, ../../sass/style.scss */
+html,
+body {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+}
+
+/* line 15, ../../sass/style.scss */
+img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
