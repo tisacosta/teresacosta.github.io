@@ -11,12 +11,31 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body>
+
+		<!-- header -->
+
 		<header>
 			<div class="container">
-				<h3><div class="foto"></div>Teresa Costa </h3>
+				<a href="#intro"><h3><div class="foto"></div>Teresa Costa </h3></a>
+				<span class="mobile-menu-icon fa fa-bars visible-xs"></span>
+				<ul class="main-menu list-inline hidden-xs">
+					<li><a href="#quem-sou"> Who I am </a></li>
+					<li><a href="#professional-experience"> Professional experience</a></li>
+					<li><a href="#skills"> Skills & stuff </a></li>
+					<li><a href="#publications"> Publications </a></li>
+					<li><a href="#contacts"> Contacts </a></li>
+				</ul>
+				<ul class="main-menu-mobile visible-xs">
+					<li><a href="#quem-sou"> Who I am </a></li>
+					<li><a href="#professional-experience"> Professional experience</a></li>
+					<li><a href="#skills"> Skills & stuff </a></li>
+					<li><a href="#publications"> Publications </a></li>
+					<li><a href="#contacts"> Contacts </a></li>
+				</ul>
 			</div>
 		</header>
-		<div class="splash-screen">
+
+		<div class="splash-screen" id="intro">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-xs-12">
@@ -58,7 +77,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="fixed-background"></div>
+			<div class="fixed-background-2"></div>
 			<section id="professional-experience">
 				<div class="section-title">
 					<div class="container">
@@ -144,37 +163,84 @@
 					</div>
 				</div>
 			</section>
-			<section id="intro">
+			<div class="fixed-background-3"></div>
+			<section id="skills">
+				<div class="section-title">
+					<div class="container">
+						<div class="row text-center">
+							<h1> SKILLS & STUFF </h1>
+						</div>
+					</div>
+				</div>
 				<div class="section-content">
 					<div class="container">
 						<div class="row">
 							<div class="card col-xs-12 col-sm-4 text-center">
-								<i class="fa fa-blind"></i>
-								<h5> Às vezes, toda cega </h5>
+								<i class="fa fa-keyboard-o"></i>
+								<h5> Programming Languages </h5>
 								<p>
 									The Google Fonts API will generate the necessary browser-specific CSS to use the fonts. All you need to do is add the font name to your CSS styles. For example:
 								</p>
+								<ul class="skills-list">
+									<li> Java </li>
+									<li> Python </li>
+									<li> SQL </li>
+									<li> SPARQL </li>
+									<li> R </li>
+									<li> Latex </li>
+									<li> XML </li>
+									<li> HTML </li>
+									<li> CSS </li>
+									<li> PHP </li>
+								</ul>
 							</div>
 							<div class="card col-xs-12 col-sm-4 text-center">
-								<i class="fa fa-battery-empty"></i>
-								<h5> Ás vezes, sem bateria </h5>
+								<i class="fa fa-database"></i>
+								<h5> Databases </h5>
 								<p>
 									The Google Fonts API will generate the necessary browser-specific CSS to use the fonts. All you need to do is add the font name to your CSS styles. For example:
 								</p>
+								<ul class="skills-list">
+									<li> MySQL </li>
+									<li> SDB </li>
+									<li> TDB </li>
+									<li> Redis </li>
+								</ul>
 							</div>
 							<div class="card col-xs-12 col-sm-4 text-center">
-								<i class="fa fa-hotel"></i>
-								<h5> Às vezes, a nanar </h5>
+								<i class="fa fa-code"></i>
+								<h5> Semantic web technologies </h5>
 								<p>
 									The Google Fonts API will generate the necessary browser-specific CSS to use the fonts. All you need to do is add the font name to your CSS styles. For example:
 								</p>
+								<ul class="skills-list">
+									<li> RDF </li>
+									<li> OWL </li>
+									<li> Jena Apache Framework </li>
+									<li> Big Data </li>
+								</ul>
+							</div>
+						</div>
+						<hr>
+						<div class="row text-center">
+							<div class="col-xs-12">
+								<p> 
+									Operating Systems: 
+									<span class="fa fa-linux"></span> GNU/Linux, 
+									<span class="fa fa-windows"></span> MS Windows 
+								</p>
+							</div>
+						</div>
+						<div class="row text-center">
+							<div class="col-xs-12">
+							<p> Other: GWT, JUnit, Log4J, Eclipse </p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<div class="fixed-background"></div>
-			<section id="section">
+			<div class="fixed-background-4"></div>
+			<section id="publications">
 				<div class="section-title">
 					<div class="container">
 						<div class="row text-center">
@@ -226,30 +292,31 @@
 				</div>
 			</section>
 		</div>
-		<footer>
+		<footer id="contacts">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-3">
-						<h4> Teresa Costa </h4>
-						<p class="social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-google-plus"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</p>
+						<h4> Contactos </h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-3">
+						<p><i class="fa fa-phone"></i>913644078</p></li>
 					</div>
 					<div class="col-xs-12 col-sm-3">
-						<h4> Contactos </h4>
-						<ul class="contactos">
-							<li><p><i class="fa fa-phone"></i>913644078</p></li>
-							<li><p><i class="fa fa-envelope"></i>teresa.costa@gmail.com</p></li>
-							<li><p><i class="fa fa-skype"></i>tecanella</p></li>
-						</ul>
+						<p><i class="fa fa-envelope"></i>teresa.costa@gmail.com</p>
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<p><i class="fa fa-skype"></i>tecanella</p>
+					</div>
+					<div class="col-xs-12 col-sm-3">
+						<p><i class="fa fa-linkedin"></i><a href="http://pt.linkedin.com/in/teresacosta" target="_blank">/teresacosta</a></p>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	</body>
+		<script type="text/javascript" src="js/main.js"></script>
+ 	</body>
 </html>
