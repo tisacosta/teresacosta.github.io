@@ -32,3 +32,12 @@ $(function() {
     }
   });
 });
+
+$(document).ready( function(){
+
+  var i = Math.ceil(6 * Math.random());
+  $('.splash-screen').css('background','url("image/mo/' + i + '.jpg") center center');
+  $('.splash-screen').css('background-size','cover');
+
+
+});
