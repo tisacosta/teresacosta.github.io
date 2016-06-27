@@ -1,18 +1,19 @@
 /* line 5, ../../sass/style.scss */
 html, body {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 400;
 }
-/* line 10, ../../sass/style.scss */
+/* line 11, ../../sass/style.scss */
 html h1, html h2, html h3, html h4, html h4, html p, html a, body h1, body h2, body h3, body h4, body h4, body p, body a {
   color: #333;
 }
-/* line 16, ../../sass/style.scss */
+/* line 17, ../../sass/style.scss */
 html .fa, body .fa {
   font-size: 4rem;
 }
 
-/* line 24, ../../sass/style.scss */
+/* line 25, ../../sass/style.scss */
 header, footer {
   width: 100%;
   background: #097C99;
@@ -20,36 +21,36 @@ header, footer {
   font-weight: 100;
 }
 
-/* line 33, ../../sass/style.scss */
+/* line 34, ../../sass/style.scss */
 header {
   height: 70px;
 }
-/* line 37, ../../sass/style.scss */
+/* line 38, ../../sass/style.scss */
 header a {
   color: white;
   text-decoration: none !important;
 }
-/* line 42, ../../sass/style.scss */
+/* line 43, ../../sass/style.scss */
 header h3 {
   display: inline-block;
 }
-/* line 48, ../../sass/style.scss */
+/* line 49, ../../sass/style.scss */
 header .main-menu {
   float: right;
   line-height: 70px;
 }
-/* line 53, ../../sass/style.scss */
+/* line 54, ../../sass/style.scss */
 header .main-menu a {
   color: white;
   display: block;
   padding: 0 10px;
   box-sizing: border-box;
 }
-/* line 59, ../../sass/style.scss */
+/* line 60, ../../sass/style.scss */
 header .main-menu a.active {
   background: #76B4BF;
 }
-/* line 69, ../../sass/style.scss */
+/* line 70, ../../sass/style.scss */
 header .main-menu-mobile {
   background: #097C99;
   position: fixed;
@@ -64,16 +65,16 @@ header .main-menu-mobile {
   -webkit-transition: height .5s, -webkit-transform .5s;
   transition: height .5s, transform .5s;
 }
-/* line 84, ../../sass/style.scss */
+/* line 85, ../../sass/style.scss */
 header .main-menu-mobile a {
   color: white !important;
   line-height: 76px;
 }
-/* line 91, ../../sass/style.scss */
+/* line 92, ../../sass/style.scss */
 header .main-menu-mobile.open {
   height: 100%;
 }
-/* line 99, ../../sass/style.scss */
+/* line 100, ../../sass/style.scss */
 header .mobile-menu-icon {
   float: right;
   font-size: 1rem;
@@ -82,7 +83,7 @@ header .mobile-menu-icon {
   line-height: 70px;
 }
 
-/* line 111, ../../sass/style.scss */
+/* line 112, ../../sass/style.scss */
 .foto {
   width: 250px;
   height: 250px;
@@ -95,17 +96,17 @@ header .mobile-menu-icon {
   background-size: 251px 251px;
 }
 
-/* line 125, ../../sass/style.scss */
+/* line 126, ../../sass/style.scss */
 header {
   position: fixed;
   top: 0;
   z-index: 10;
 }
-/* line 131, ../../sass/style.scss */
+/* line 132, ../../sass/style.scss */
 header h3 {
   color: white;
 }
-/* line 135, ../../sass/style.scss */
+/* line 136, ../../sass/style.scss */
 header h3 .foto {
   width: 23px;
   height: 23px;
@@ -118,7 +119,7 @@ header h3 .foto {
   float: left;
 }
 
-/* line 153, ../../sass/style.scss */
+/* line 154, ../../sass/style.scss */
 .splash-screen {
   width: 100%;
   height: 100vh;
@@ -126,106 +127,100 @@ header h3 .foto {
   box-sizing: border-box;
   background: #76B4BF;
 }
-/* line 161, ../../sass/style.scss */
+/* line 162, ../../sass/style.scss */
 .splash-screen h3, .splash-screen p, .splash-screen .fa {
   color: white;
 }
-/* line 167, ../../sass/style.scss */
+/* line 168, ../../sass/style.scss */
 .splash-screen img {
   max-height: 25vh;
   margin: 5vh auto;
 }
 
-/* line 176, ../../sass/style.scss */
+/* line 177, ../../sass/style.scss */
 .content {
   width: 100%;
 }
-/* line 180, ../../sass/style.scss */
+/* line 181, ../../sass/style.scss */
 .content .card {
   padding: 20px;
   box-sizing: border-box;
 }
-/* line 185, ../../sass/style.scss */
+/* line 186, ../../sass/style.scss */
 .content .card .fa {
   margin: 40px 0;
 }
-/* line 191, ../../sass/style.scss */
+/* line 192, ../../sass/style.scss */
 .content .card h5 {
   margin-bottom: 20px;
   color: #76B4BF;
 }
-/* line 198, ../../sass/style.scss */
-.content .card p {
-  font-weight: 100;
-}
-/* line 206, ../../sass/style.scss */
+/* line 201, ../../sass/style.scss */
 .content section {
   box-sizing: border-box;
 }
-/* line 210, ../../sass/style.scss */
+/* line 205, ../../sass/style.scss */
 .content section .section-title {
   background: #097C99;
   padding: 50px 0;
   border-bottom: 25px solid #76B4BF;
   font-weight: 100;
 }
-/* line 217, ../../sass/style.scss */
+/* line 212, ../../sass/style.scss */
 .content section .section-title h1 {
   color: white;
 }
-/* line 225, ../../sass/style.scss */
+/* line 220, ../../sass/style.scss */
 .content section .section-content {
   padding: 50px 0;
 }
-/* line 229, ../../sass/style.scss */
+/* line 224, ../../sass/style.scss */
 .content section .section-content article {
   padding: 50px 0;
   margin-bottom: 50px;
-  font-weight: 100;
 }
-/* line 235, ../../sass/style.scss */
+/* line 229, ../../sass/style.scss */
 .content section .section-content article h3 {
   min-height: 70px;
 }
-/* line 239, ../../sass/style.scss */
+/* line 233, ../../sass/style.scss */
 .content section .section-content article h3 .fa {
   font-size: inherit;
   margin-right: 50px;
 }
-/* line 248, ../../sass/style.scss */
+/* line 242, ../../sass/style.scss */
 .content section .section-content article .description {
   padding-bottom: 10px;
   border-top: 1px solid lightgray;
   padding-top: 10px;
 }
 
-/* line 265, ../../sass/style.scss */
+/* line 259, ../../sass/style.scss */
 .date {
   font-style: italic;
-  font-weight: 400;
   color: gray;
 }
 
-/* line 273, ../../sass/style.scss */
+/* line 266, ../../sass/style.scss */
 footer {
   background: #202E31;
   padding: 50px 0;
 }
-/* line 278, ../../sass/style.scss */
+/* line 271, ../../sass/style.scss */
 footer h4 {
   color: #76B4BF;
 }
-/* line 284, ../../sass/style.scss */
+/* line 277, ../../sass/style.scss */
 footer p, footer a {
   color: white;
 }
-/* line 285, ../../sass/style.scss */
+/* line 278, ../../sass/style.scss */
 footer .fa {
   font-size: inherit;
   margin-right: 15px;
 }
 
-/* line 295, ../../sass/style.scss */
+/* line 288, ../../sass/style.scss */
 .fixed-background-1 {
   width: 100%;
   height: 50vh;
@@ -236,7 +231,7 @@ footer .fa {
   background-position: center;
 }
 
-/* line 307, ../../sass/style.scss */
+/* line 300, ../../sass/style.scss */
 .fixed-background-2 {
   width: 100%;
   height: 50vh;
@@ -247,7 +242,7 @@ footer .fa {
   background-position: center;
 }
 
-/* line 319, ../../sass/style.scss */
+/* line 312, ../../sass/style.scss */
 .fixed-background-3 {
   width: 100%;
   height: 50vh;
@@ -258,7 +253,7 @@ footer .fa {
   background-position: center;
 }
 
-/* line 331, ../../sass/style.scss */
+/* line 324, ../../sass/style.scss */
 .fixed-background-4 {
   width: 100%;
   height: 50vh;
@@ -269,43 +264,52 @@ footer .fa {
   background-position: center;
 }
 
-/* line 345, ../../sass/style.scss */
+/* line 338, ../../sass/style.scss */
 #quem-sou img {
   max-width: 150px;
   display: inline;
   float: left;
   margin: 0 10px 10px 0;
 }
-/* line 354, ../../sass/style.scss */
+/* line 347, ../../sass/style.scss */
 #quem-sou .email {
   color: gray;
   font-style: italic;
 }
+/* line 354, ../../sass/style.scss */
+#quem-sou a {
+  color: #4D7EA7;
+}
 
-/* line 365, ../../sass/style.scss */
+/* line 362, ../../sass/style.scss */
 #professional-experience .item {
   border-left: 10px solid lightgray;
   padding-left: 15px;
   box-sizing: border-box;
 }
-/* line 371, ../../sass/style.scss */
+/* line 368, ../../sass/style.scss */
 #professional-experience .item .tech {
   color: #76B4BF;
 }
 
-/* line 381, ../../sass/style.scss */
+/* line 378, ../../sass/style.scss */
 .skills-list {
   list-style: none;
   padding: 0;
 }
 
-/* line 389, ../../sass/style.scss */
+/* line 386, ../../sass/style.scss */
 #skills span.fa {
   font-size: inherit;
   margin: 0 5px;
 }
+/* line 396, ../../sass/style.scss */
+#skills ul li {
+  color: #097C99;
+  font-weight: 500;
+}
 
-/* line 398, ../../sass/style.scss */
+/* line 407, ../../sass/style.scss */
 .publisher {
   color: #097C99;
   min-height: 50px;
